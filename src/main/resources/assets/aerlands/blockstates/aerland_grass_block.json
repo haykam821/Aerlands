@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"snowy=false": [{
+			"model": "aerlands:block/aerland_grass_block"
+		}, {
+			"model": "aerlands:block/aerland_grass_block",
+			"y": 90
+		}, {
+			"model": "aerlands:block/aerland_grass_block",
+			"y": 180
+		}, {
+			"model": "aerlands:block/aerland_grass_block",
+			"y": 270
+		}],
+		"snowy=true": {
+			"model": "aerlands:block/aerland_grass_block_snow"
+		}
+	}
+}

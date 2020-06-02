@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.aerlands.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"LivingEntityMixin",
+		"SpreadableBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

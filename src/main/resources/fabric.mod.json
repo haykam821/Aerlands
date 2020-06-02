@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "aerlands",
+	"version": "1.0.0",
+	"name": "Aerlands",
+	"description": "Adds a dimensional counterpart to the Nether.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Aerlands#readme",
+		"issues": "https://github.com/haykam821/Aerlands/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.aerlands.Main"
+		]
+	},
+	"mixins": [
+		"aerlands.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/aerlands/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}

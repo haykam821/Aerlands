@@ -1,0 +1,9 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"particle": "aerlands:block/aerland_dirt",
+		"bottom": "aerlands:block/aerland_dirt",
+		"top": "aerlands:block/aerland_grass_block_top",
+		"side": "aerlands:block/aerland_grass_block_side"
+	}
+}
