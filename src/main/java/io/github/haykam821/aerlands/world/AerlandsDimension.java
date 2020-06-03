@@ -42,7 +42,7 @@ public class AerlandsDimension extends OverworldDimension {
 	public ChunkGenerator<?> createChunkGenerator() {
 		FloatingIslandsChunkGeneratorConfig config = ChunkGeneratorType.FLOATING_ISLANDS.createSettings();
 
-		config.setDefaultBlock(ModBlocks.AERLAND_DIRT.block.getDefaultState());
+		config.setDefaultBlock(ModBlocks.HOLYSTONE.block.getDefaultState());
 		config.setDefaultFluid(Blocks.AIR.getDefaultState());
 
 		// Biome config

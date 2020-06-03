@@ -18,6 +18,7 @@ import net.minecraft.block.FenceBlock;
 import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.GrassBlock;
 import net.minecraft.block.SlabBlock;
+import net.minecraft.block.WallBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -28,6 +29,8 @@ import net.minecraft.util.registry.Registry;
 public enum ModBlocks {
 	AERLAND_DIRT("aerland_dirt", Block::new, Blocks.DIRT, ItemGroup.BUILDING_BLOCKS),
 	AERLAND_GRASS_BLOCK("aerland_grass_block", GrassBlock::new, Blocks.GRASS_BLOCK, ItemGroup.BUILDING_BLOCKS),
+	HOLYSTONE("holystone", Block::new, Blocks.STONE, ItemGroup.BUILDING_BLOCKS),
+	MOSSY_HOLYSTONE("mossy_holystone", Block::new, Blocks.STONE, ItemGroup.BUILDING_BLOCKS),
 	AERLAND_WARPER("aerland_warper", AerlandWarperBlock::new, Blocks.OBSIDIAN, ItemGroup.DECORATIONS),
 	SKYROOT_PLANKS("skyroot_planks", Block::new, Blocks.OAK_PLANKS, ItemGroup.BUILDING_BLOCKS),
 	SKYROOT_SLAB("skyroot_slab", SlabBlock::new, Blocks.OAK_SLAB, ItemGroup.BUILDING_BLOCKS),
