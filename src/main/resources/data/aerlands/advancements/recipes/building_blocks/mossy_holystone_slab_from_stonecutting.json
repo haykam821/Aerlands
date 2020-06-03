@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"aerlands:mossy_holystone_slab_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_mossy_holystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "aerlands:mossy_holystone"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "aerlands:mossy_holystone_slab_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_mossy_holystone",
+			"has_the_recipe"
+		]
+	]
+}

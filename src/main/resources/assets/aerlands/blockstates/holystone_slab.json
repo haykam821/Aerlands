@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "aerlands:block/holystone_slab"
+		},
+		"type=top": {
+			"model": "aerlands:block/holystone_slab_top"
+		},
+		"type=double": {
+			"model": "aerlands:block/holystone"
+		}
+	}
+}

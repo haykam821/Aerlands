@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"hhh"
+	],
+	"key": {
+		"h": {
+			"item": "aerlands:holystone"
+		}
+	},
+	"result": {
+		"item": "aerlands:holystone_slab",
+		"count": 6
+	}
+}

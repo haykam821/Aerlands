@@ -1,0 +1,8 @@
+{
+	"parent": "block/slab",
+	"textures": {
+		"bottom": "aerlands:block/holystone",
+		"top": "aerlands:block/holystone",
+		"side": "aerlands:block/holystone"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"aerlands:holystone_slab_from_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_holystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "aerlands:holystone"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "aerlands:holystone_slab_from_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_holystone",
+			"has_the_recipe"
+		]
+	]
+}

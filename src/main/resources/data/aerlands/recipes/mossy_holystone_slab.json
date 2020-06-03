@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"mmm"
+	],
+	"key": {
+		"m": {
+			"item": "aerlands:mossy_holystone"
+		}
+	},
+	"result": {
+		"item": "aerlands:mossy_holystone_slab",
+		"count": 6
+	}
+}

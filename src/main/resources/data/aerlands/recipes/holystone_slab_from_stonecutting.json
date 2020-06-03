@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "aerlands:holystone"
+	},
+	"result": "aerlands:holystone_slab",
+	"count": 2
+}
