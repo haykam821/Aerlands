@@ -14,6 +14,9 @@
 	"entrypoints": {
 		"main": [
 			"io.github.haykam821.aerlands.Main"
+		],
+		"client": [
+			"io.github.haykam821.aerlands.ClientMain"
 		]
 	},
 	"mixins": [

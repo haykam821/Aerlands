@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"SSS",
+		" s "
+	],
+	"key": {
+		"S": {
+			"item": "aerlands:skyroot_planks"
+		},
+		"s": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "aerlands:skyroot_sign",
+		"count": 3
+	}
+}

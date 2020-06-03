@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "wooden_fence_gate",
+	"pattern": [
+		"sSs",
+		"sSs"
+	],
+	"key": {
+		"S": {
+			"item": "aerlands:skyroot_planks"
+		},
+		"s": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "aerlands:skyroot_fence_gate"
+	}
+}

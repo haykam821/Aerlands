@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "aerlands:block/skyroot_slab"
+		},
+		"type=top": {
+			"model": "aerlands:block/skyroot_slab_top"
+		},
+		"type=double": {
+			"model": "aerlands:block/skyroot_planks"
+		}
+	}
+}

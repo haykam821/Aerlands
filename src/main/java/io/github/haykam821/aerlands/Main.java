@@ -15,6 +15,8 @@ public class Main implements ModInitializer {
 	private static final Identifier AERLANDS_ID = new Identifier(MOD_ID, "aerlands");
 	public static final Biome AERLANDS_BIOME = new AerlandsBiome();
 
+	public static final Identifier SKYROOT_SIGN_TEXTURE = new Identifier(MOD_ID, "entity/signs/skyroot");
+
 	public static final FabricDimensionType AERLANDS = FabricDimensionType.builder()
 		.defaultPlacer(AerlandsDimension.AERLANDS_PLACER)
 		.factory(AerlandsDimension::new)

@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"aerlands:skyroot_door"
+		]
+	},
+	"criteria": {
+		"has_skyroot_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "aerlands:skyroot_planks"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "aerlands:skyroot_door"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_skyroot_planks",
+			"has_the_recipe"
+		]
+	]
+}

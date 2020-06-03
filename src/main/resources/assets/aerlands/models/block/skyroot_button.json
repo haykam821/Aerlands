@@ -1,0 +1,6 @@
+{
+	"parent": "block/button",
+	"textures": {
+		"texture": "aerlands:block/skyroot_planks"
+	}
+}
