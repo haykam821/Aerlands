@@ -11,12 +11,17 @@ import com.terraformersmc.terraform.block.TerraformTrapdoorBlock;
 import com.terraformersmc.terraform.block.TerraformWallSignBlock;
 
 import io.github.haykam821.aerlands.Main;
+import io.github.haykam821.aerlands.block.sapling.SkyrootSaplingBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.FenceBlock;
 import net.minecraft.block.FenceGateBlock;
+import net.minecraft.block.FlowerPotBlock;
 import net.minecraft.block.GrassBlock;
+import net.minecraft.block.LeavesBlock;
+import net.minecraft.block.LogBlock;
+import net.minecraft.block.MaterialColor;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.WallBlock;
 import net.minecraft.item.BlockItem;
@@ -34,6 +39,10 @@ public enum ModBlocks {
 	MOSSY_HOLYSTONE("mossy_holystone", Block::new, Blocks.STONE, ItemGroup.BUILDING_BLOCKS),
 	MOSSY_HOLYSTONE_SLAB("mossy_holystone_slab", SlabBlock::new, Blocks.STONE_SLAB, ItemGroup.BUILDING_BLOCKS),
 	AERLAND_WARPER("aerland_warper", AerlandWarperBlock::new, Blocks.OBSIDIAN, ItemGroup.DECORATIONS),
+	SKYROOT_LOG("skyroot_log", settings -> new LogBlock(MaterialColor.LIGHT_BLUE, settings), Blocks.OAK_LOG, ItemGroup.BUILDING_BLOCKS),
+	SKYROOT_LEAVES("skyroot_leaves", LeavesBlock::new, Blocks.OAK_LEAVES, ItemGroup.BUILDING_BLOCKS),
+	SKYROOT_SAPLING("skyroot_sapling", SkyrootSaplingBlock::new, Blocks.OAK_SAPLING, ItemGroup.BUILDING_BLOCKS),
+	POTTED_SKYROOT_SAPLING("potted_skyroot_sapling", settings -> new FlowerPotBlock(SKYROOT_SAPLING.block, settings), Blocks.POTTED_OAK_SAPLING, (BlockItem) null),
 	SKYROOT_PLANKS("skyroot_planks", Block::new, Blocks.OAK_PLANKS, ItemGroup.BUILDING_BLOCKS),
 	SKYROOT_SLAB("skyroot_slab", SlabBlock::new, Blocks.OAK_SLAB, ItemGroup.BUILDING_BLOCKS),
 	SKYROOT_STAIRS("skyroot_stairs", settings -> new TerraformStairsBlock(SKYROOT_PLANKS.block, settings), Blocks.OAK_STAIRS, ItemGroup.BUILDING_BLOCKS),

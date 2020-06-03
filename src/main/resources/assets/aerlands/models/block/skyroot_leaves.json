@@ -1,0 +1,6 @@
+{
+	"parent": "block/leaves",
+	"textures": {
+		"all": "aerlands:block/skyroot_leaves"
+	}
+}

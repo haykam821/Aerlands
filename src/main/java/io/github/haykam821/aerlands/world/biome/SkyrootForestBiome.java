@@ -1,6 +1,6 @@
 package io.github.haykam821.aerlands.world.biome;
 
-import net.minecraft.world.biome.DefaultBiomeFeatures;
+import io.github.haykam821.aerlands.block.sapling.SkyrootSaplingGenerator;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.decorator.ConfiguredDecorator;
 import net.minecraft.world.gen.decorator.CountExtraChanceDecoratorConfig;
@@ -16,7 +16,7 @@ public class SkyrootForestBiome extends AerlandsBiome {
 			.configure(new CountExtraChanceDecoratorConfig(4, 0.1f, 1));
 
 		ConfiguredFeature<?, ?> treeFeature = Feature.NORMAL_TREE
-			.configure(DefaultBiomeFeatures.OAK_TREE_CONFIG)
+			.configure(SkyrootSaplingGenerator.SKYROOT_TREE_CONFIG)
 			.createDecoratedFeature(extraChanceDecorator);
 	
 		this.addFeature(GenerationStep.Feature.VEGETAL_DECORATION, treeFeature);

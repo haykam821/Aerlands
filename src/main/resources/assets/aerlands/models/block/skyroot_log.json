@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "aerlands:block/skyroot_log_top",
+		"side": "aerlands:block/skyroot_log"
+	}
+}

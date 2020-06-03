@@ -13,7 +13,10 @@ public class ClientMain implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		RenderLayer cutoutLayer = RenderLayer.getCutout();
-		BlockRenderLayerMap.INSTANCE.putBlocks(cutoutLayer, ModBlocks.SKYROOT_DOOR.block, ModBlocks.SKYROOT_TRAPDOOR.block);
+		BlockRenderLayerMap.INSTANCE.putBlocks(cutoutLayer, ModBlocks.SKYROOT_SAPLING.block, ModBlocks.POTTED_SKYROOT_SAPLING.block, ModBlocks.SKYROOT_DOOR.block, ModBlocks.SKYROOT_TRAPDOOR.block);
+
+		RenderLayer cutoutMippedLayer = RenderLayer.getCutoutMipped();
+		BlockRenderLayerMap.INSTANCE.putBlocks(cutoutMippedLayer, ModBlocks.SKYROOT_LEAVES.block);
 
 		SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, Main.SKYROOT_SIGN_TEXTURE));
 	}

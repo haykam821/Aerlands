@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=y": {
+			"model": "aerlands:block/skyroot_log"
+		},
+		"axis=z": {
+			"model": "aerlands:block/skyroot_log",
+			"x": 90
+		},
+		"axis=x": {
+			"model": "aerlands:block/skyroot_log",
+			"x": 90,
+			"y": 90
+		}
+	}
+}
