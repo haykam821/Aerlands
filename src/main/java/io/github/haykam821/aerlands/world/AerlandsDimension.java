@@ -11,8 +11,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
-import net.minecraft.world.biome.source.BiomeSourceType;
-import net.minecraft.world.biome.source.FixedBiomeSourceConfig;
+import net.minecraft.world.biome.source.VanillaLayeredBiomeSourceConfig;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.dimension.OverworldDimension;
 import net.minecraft.world.gen.chunk.ChunkGenerator;
@@ -46,12 +45,10 @@ public class AerlandsDimension extends OverworldDimension {
 		config.setDefaultBlock(ModBlocks.AERLAND_DIRT.block.getDefaultState());
 		config.setDefaultFluid(Blocks.AIR.getDefaultState());
 
-		// Biome
-		FixedBiomeSourceConfig biomeConfig = BiomeSourceType.FIXED
-			.getConfig(world.getLevelProperties())
-			.setBiome(Main.AERLANDS_BIOME);
+		// Biome config
+		VanillaLayeredBiomeSourceConfig biomeConfig = Main.AERLANDS_LAYERED_SOURCE_TYPE.getConfig(world.getLevelProperties());
 
-		return ChunkGeneratorType.FLOATING_ISLANDS.create(world, BiomeSourceType.FIXED.applyConfig(biomeConfig), config);
+		return ChunkGeneratorType.FLOATING_ISLANDS.create(world, Main.AERLANDS_LAYERED_SOURCE_TYPE.applyConfig(biomeConfig), config);
 	}
 
 	@Override

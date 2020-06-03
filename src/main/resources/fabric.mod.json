@@ -22,6 +22,7 @@
 	"mixins": [
 		"aerlands.mixin.json"
 	],
+	"accessWidener": "aerlands.accesswidener",
 	"license": "MIT",
 	"icon": "assets/aerlands/icon.png",
 	"depends": {
